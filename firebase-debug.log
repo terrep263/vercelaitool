@@ -1,0 +1,40 @@
+[debug] [2025-07-31T00:32:55.161Z] ----------------------------------------------------------------------
+[debug] [2025-07-31T00:32:55.163Z] Command:       /nix/store/ws50yvm6vzlzf7jzz6n7xh4szddrack1-nodejs-20.19.1/bin/node /nix/store/gv0i9ndcpzjpfi2yr06402kzy90q51ki-firebase-tools-14.10.1/lib/node_modules/firebase-tools/lib/bin/firebase.js init hosting
+[debug] [2025-07-31T00:32:55.164Z] CLI Version:   14.10.1
+[debug] [2025-07-31T00:32:55.164Z] Platform:      linux
+[debug] [2025-07-31T00:32:55.164Z] Node Version:  v20.19.1
+[debug] [2025-07-31T00:32:55.165Z] Time:          Thu Jul 31 2025 00:32:55 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-07-31T00:32:55.165Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-07-31T00:32:55.173Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-31T00:33:06.052Z] Running auto auth
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/user/studio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-07-31T00:33:06.094Z] Using project from CLI flag: ai-tool-kit-pro
+[debug] [2025-07-31T00:33:06.099Z] No OAuth tokens found
+[debug] [2025-07-31T00:33:06.104Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ai-tool-kit-pro [none]
+[debug] [2025-07-31T00:33:06.338Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ai-tool-kit-pro 200
+[debug] [2025-07-31T00:33:06.338Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ai-tool-kit-pro {"projectId":"ai-tool-kit-pro","projectNumber":"354746411153","displayName":"AI Tool Kit Pro","name":"projects/ai-tool-kit-pro","resources":{"hostingSite":"ai-tool-kit-pro"},"state":"ACTIVE","etag":"1_055137ed-75a4-4590-808c-ff4a872ecbed"}
+[info] i  Using project ai-tool-kit-pro (AI Tool Kit Pro) 
+[info] 
+=== Hosting Setup
+[debug] [2025-07-31T00:33:06.352Z] No OAuth tokens found
+[debug] [2025-07-31T00:33:06.352Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ai-tool-kit-pro [none]
+[debug] [2025-07-31T00:33:06.614Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ai-tool-kit-pro 200
+[debug] [2025-07-31T00:33:06.615Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ai-tool-kit-pro {"projectId":"ai-tool-kit-pro","projectNumber":"354746411153","displayName":"AI Tool Kit Pro","name":"projects/ai-tool-kit-pro","resources":{"hostingSite":"ai-tool-kit-pro"},"state":"ACTIVE","etag":"1_055137ed-75a4-4590-808c-ff4a872ecbed"}
